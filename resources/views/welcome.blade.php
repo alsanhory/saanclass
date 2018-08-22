@@ -100,13 +100,13 @@
                 </div>
                <div class="row">
                <div class="col-lg-12">
-                    <div class="col-lg-4">
+                    <div class="col-sm-4">
                         <h2>الدورات القادمة</h2>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-sm-4">
                         <h2>دورات ستبدأ اليوم</h2>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-sm-4">
                         <h2>الأكثر تسجيلاً</h2>
                     </div>
                </div>

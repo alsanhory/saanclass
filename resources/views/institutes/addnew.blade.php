@@ -1,3 +1,4 @@
+{{$errors}}
 {{Form::open()}}
 {{Form::label('name','اسم المركز')}}
 {{Form::text('name')}}
@@ -9,10 +10,12 @@
 {{Form::label('accountnumber','رقم التصديق')}}
 {{Form::text('accountnumber')}}
 <br/>
+{{Form::label('phone','رقم الهاتف ')}}
+{{Form::text('phone')}}
 بيانات الفرع الرئيسي
 <br/>
 {{Form::label('address','عنوان المركز')}}
-{{Form::text('accountnumber')}}
+{{Form::text('address')}}
 <br/>
 {{Form::label('city','المدينة')}}
 {{Form::text('city')}}
@@ -21,15 +24,28 @@
 {{Form::text('neighborhood')}}
 
 <br/>
+
 {{Form::label('phone1','رقم الهاتف 1')}}
 {{Form::text('phone1')}}
 {{Form::label('phone2','رقم الهاتف 2')}}
 {{Form::text('phone2')}}
-{{Form::label('phone3','رقم الهاتف 3')}}
-{{Form::text('phone3')}}
 <br/>
 {{Form::label('intitutelink','رابط الصفحة')}}
 saanclass.com/{{Form::text('intitutelink')}}
+<br/>
+
+
+{{Form::label('email','البريد الالكتروني')}}
+{{Form::text('email')}}
+<div class="form-group">
+{{Form::label('password','كلمة المرور')}}
+{{Form::password('password')}}
+</div>
+
+<div class="form-group">
+{{Form::label('password','تأكيد كلمة المرور')}}
+{{Form::password('password_confirmation')}}
+</div>
 <br/>
 {{Form::submit('تسجيل')}}
 {{Form::close()}}

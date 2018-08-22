@@ -32,7 +32,7 @@ class UsersCustomeController extends Controller
             $user->password=\Hash::make($request->password);
             $user->accounttype='normaluser';
             $user->save();
-            //dd($user);
+            return redirect('userlogin');
         //}
         
         
